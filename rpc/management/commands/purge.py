@@ -18,8 +18,8 @@ class Command(BaseCommand):
 
         Assignment.objects.all().delete()
         ActionHolder.objects.all().delete()
-        Label.objects.all().delete()
         RfcToBe.objects.all().delete()
+        Label.objects.all().delete()
         RpcPerson.objects.all().delete()
         DatatrackerPerson.objects.all().delete()
         Document.objects.all().delete()

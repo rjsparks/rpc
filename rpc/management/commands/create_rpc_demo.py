@@ -200,8 +200,8 @@ class Command(BaseCommand):
         # submission, not yet an RfcToBe (not shown on "The Queue" wireframe)
         rpcapi.create_demo_draft(
             rpcapi_client.CreateDemoDraftRequest(
-                name="draft-ietf-ietf-lizard-qol-00",
-                states=[("draft-iesg", "pub-req")],
+                name="draft-ietf-iridium-is-wierd-00",
+                states=[("draft-iesg", "ann")],
             )
         )
 
